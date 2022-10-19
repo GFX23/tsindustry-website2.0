@@ -32,7 +32,7 @@ const Background: React.FC = () => {
             p[i] = v >= h || v >= 20000 * Math.random() ? 0 : v + 40;
           }
         };
-        setInterval(draw, 1000 / fps);
+        setInterval(draw, 1500 / fps);
       }
     }
 
