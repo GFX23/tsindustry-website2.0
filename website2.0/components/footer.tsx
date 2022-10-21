@@ -5,7 +5,7 @@ interface IBurgerProps {
 
 const Footer: React.FC<IBurgerProps> = () => {
   return (
-    <div className="flex flex-col">
+    <div className="absolute bottom-0 h-96">
       <p>Footer</p>
     </div>
   )

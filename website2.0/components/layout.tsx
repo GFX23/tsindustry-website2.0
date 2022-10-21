@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Background from "./background";
-import Burger from "./burger";
+import Burger from "./navbar";
 import Footer from "./footer";
 
 
@@ -10,10 +10,13 @@ interface LayoutProps {
 
 const Layout = ({children}: LayoutProps) => {
   return (
-    <div className="max-w-7xl w-screen h-full flex flex-col mx-auto">
+    <div className="h-screen w-full">
       <Background />
+    <div className="max-w-7xl h-full flex flex-col relative mx-auto">
       <Burger />
+      {children}
       <Footer />
+    </div>
     </div>
   )
 }
