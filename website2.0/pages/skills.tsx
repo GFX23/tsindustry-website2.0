@@ -16,7 +16,7 @@ const Skills: NextPage = () => {
           <Image src="/typescript.svg" width="250" height="250"/>
           <Image src="/react.svg" width="250" height="250"/>
           <Image src="/javascript.svg" width="250" height="250"/>
-          <Image src="/tailwind.svg" width="250" height="250"/>
+          <Image src="/next-js.svg" width="250" height="250"/>
         </div>
       </div>
     </div>
